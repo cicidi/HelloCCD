@@ -2624,3 +2624,148 @@ org.eclipse.equinox.security.storage.StorageException: No password provided.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:28:40.910
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-04-30 16:32:16.231
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:454)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1595)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:16.871
+!MESSAGE Unable to add com/mkyong/common/SpringExample/1.0-SNAPSHOT/SpringExample-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:16.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:16.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:17.779
+!MESSAGE Unable to add com/mkyong/common/RESTfulExample/1.0-SNAPSHOT/RESTfulExample-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:17.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:17.808
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:18.225
+!MESSAGE Unable to add com/radcortez/rest/ssl/rest-ssl/1.0-SNAPSHOT/rest-ssl-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:20.293
+!MESSAGE Unable to add com/mkyong/common/SpringExample/1.0-SNAPSHOT/SpringExample-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:20.301
+!MESSAGE Unable to add com/mkyong/common/RESTfulExample/1.0-SNAPSHOT/RESTfulExample-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:32:20.308
+!MESSAGE Unable to add com/radcortez/rest/ssl/rest-ssl/1.0-SNAPSHOT/rest-ssl-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:20.783
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:20.785
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:20.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:32:20.854
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 77 2015-04-30 16:33:02.067
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-04-30 16:33:02.068
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-04-30 16:33:02.068
+!MESSAGE /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master overlaps the location of another project: 'rest-ssl-master'
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-04-30 16:33:02.088
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:454)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1595)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:03.006
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-Client/1.0-SNAPSHOT/JAX-RS-Client-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.032
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.036
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:03.168
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-GET-HTTP-HEADER/1.0-SNAPSHOT/JAX-RS-GET-HTTP-HEADER-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.185
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.187
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:03.304
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-PATH-MATCHING-EXAMPLE/1.0-SNAPSHOT/JAX-RS-PATH-MATCHING-EXAMPLE-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.319
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:03.321
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:04.367
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-PATH-MATCHING-EXAMPLE/1.0-SNAPSHOT/JAX-RS-PATH-MATCHING-EXAMPLE-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:04.374
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-Client/1.0-SNAPSHOT/JAX-RS-Client-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-04-30 16:33:04.388
+!MESSAGE Unable to add com/mkyong/common/JAX-RS-GET-HTTP-HEADER/1.0-SNAPSHOT/JAX-RS-GET-HTTP-HEADER-1.0-SNAPSHOT.pom
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.614
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.695
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.698
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.781
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-30 16:33:04.783
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-04-30 16:38:03.362
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:454)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1595)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

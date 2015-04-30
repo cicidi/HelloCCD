@@ -5,7 +5,7 @@
 	<artifactId>JAX-RS-Client</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>RESTfulExample Maven Webapp</name>
+	<name>JAX-RS-Client</name>
 	<url>http://maven.apache.org</url>
 
 	<repositories>
