@@ -45,3 +45,55 @@
 2015-04-30 14:49:33,742 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/rest-ssl-master/src/main/resources
 2015-04-30 14:49:33,745 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-04-30 14:49:33,746 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-04-30 16:24:34,521 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:24:34,523 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:24:37,453 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:37,466 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-04-30 16:24:37,480 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:37,480 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-04-30 16:24:38,063 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:24:38,174 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:SpringExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/Spring/pom.xml.
+2015-04-30 16:24:40,300 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:SpringExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/Spring/pom.xml.
+2015-04-30 16:24:40,320 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.radcortez.rest.ssl:rest-ssl:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/pom.xml.
+2015-04-30 16:24:40,464 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:40,465 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-04-30 16:24:40,469 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:40,470 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-04-30 16:24:40,854 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.radcortez.rest.ssl:rest-ssl:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/pom.xml.
+2015-04-30 16:24:43,360 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-30 16:24:43,361 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-04-30 16:24:43,364 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-30 16:24:43,364 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-04-30 16:24:44,720 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:24:44,884 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:SpringExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/Spring/pom.xml.
+2015-04-30 16:24:45,082 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.radcortez.rest.ssl:rest-ssl:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/pom.xml.
+2015-04-30 16:24:45,665 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:SpringExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/Spring/pom.xml.
+2015-04-30 16:24:45,824 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:24:46,114 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.radcortez.rest.ssl:rest-ssl:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/pom.xml.
+2015-04-30 16:24:46,956 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:46,963 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-04-30 16:24:46,971 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:46,972 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-04-30 16:24:47,128 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:47,129 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-04-30 16:24:47,142 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:24:47,144 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-04-30 16:24:47,365 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-30 16:24:47,365 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-04-30 16:24:47,372 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-30 16:24:47,373 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-04-30 16:28:37,865 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:28:38,185 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:28:38,342 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:38,344 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-04-30 16:28:38,348 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:38,349 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-04-30 16:28:39,552 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/pom.xml.
+2015-04-30 16:28:39,763 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:39,770 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-04-30 16:28:39,778 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:39,779 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-04-30 16:28:40,906 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:40,907 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-04-30 16:28:40,910 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 16:28:40,911 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
