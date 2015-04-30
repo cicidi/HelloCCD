@@ -1,0 +1,11 @@
+2015-04-30 14:33:56,422 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/CCD/workspace/RESTfulExample/pom.xml.
+2015-04-30 14:34:00,283 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTfulExample/src/main/java
+2015-04-30 14:34:00,284 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RESTfulExample/src/main/resources overlaps with sources folder /RESTfulExample/src/main/resources
+2015-04-30 14:34:00,285 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/CCD/workspace/RESTfulExample/pom.xml.
+2015-04-30 14:34:00,288 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTfulExample/src/test/java
+2015-04-30 14:34:02,739 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2015-04-30 14:34:04,793 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mkyong.common:RESTfulExample:1.0-SNAPSHOT @ /home/jianming/CCD/workspace/RESTfulExample/pom.xml.
+2015-04-30 14:34:05,215 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 14:34:05,225 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-04-30 14:34:05,242 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-04-30 14:34:05,243 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/CCD/workspace/RESTfulExample/src/test/resources
