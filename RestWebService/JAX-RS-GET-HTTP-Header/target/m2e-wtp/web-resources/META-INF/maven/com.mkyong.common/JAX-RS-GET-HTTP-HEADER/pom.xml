@@ -5,7 +5,7 @@
 	<artifactId>JAX-RS-GET-HTTP-HEADER</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>RJAX-RS-GET-HTTP-HEADER</name>
+	<name>JAX-RS-GET-HTTP-HEADER</name>
 	<url>http://maven.apache.org</url>
 
 	<repositories>

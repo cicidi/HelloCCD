@@ -1,6 +1,5 @@
 package com.observer.pattern;
 
-import javax.security.auth.Subject;
 
 public class test {
 
