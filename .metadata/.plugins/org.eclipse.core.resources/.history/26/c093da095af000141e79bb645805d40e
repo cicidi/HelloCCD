@@ -1,0 +1,10 @@
+package com.cicidi.multithread;
+
+public class HelloWorld {
+	public static void main(String[] arg) {
+		Thread thread1 = new Thread(
+		)
+		// Thread thread2 = new Thread(new HelloWorld(), "World");
+
+	}
+}

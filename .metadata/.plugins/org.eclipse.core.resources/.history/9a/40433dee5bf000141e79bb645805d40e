@@ -1,0 +1,5 @@
+package com.cicidi.multithread;
+
+public class HelloWorld2 implements Runnable {
+
+}
