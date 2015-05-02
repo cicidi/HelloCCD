@@ -9,7 +9,7 @@ public class HelloWorld2Test {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) s{
 			Thread thread1 = new Thread(new HelloWorld2("H" + i));
 			Thread thread2 = new Thread(new HelloWorld2("elloWorld" + i));
 			thread1.start();
@@ -23,7 +23,7 @@ public class HelloWorld2Test {
 			thread2.join();
 		}
 		// (new Thread(new HelloWorld2("Hello"))).start();
-		// thread2.start();sss
+		// thread2.start();
 	}
 }
 // ----------------------------------------------------------

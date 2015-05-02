@@ -23,7 +23,7 @@ public class HelloWorld2Test {
 			thread2.join();
 		}
 		// (new Thread(new HelloWorld2("Hello"))).start();
-		// thread2.start();sss
+		// thread2.start();
 	}
 }
 // ----------------------------------------------------------

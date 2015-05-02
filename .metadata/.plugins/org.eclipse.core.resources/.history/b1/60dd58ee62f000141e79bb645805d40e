@@ -16,7 +16,7 @@ public class ReverseInteger {
 //			if (input == 0) {
 //				reversedNum += input;
 //			}
-//
+
 		}
 		System.out.print(reversedNum);
 	}
