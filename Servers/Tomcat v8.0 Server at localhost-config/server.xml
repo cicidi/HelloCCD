@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="rest-ssl-master" path="/rest-ssl" reloadable="true" source="org.eclipse.jst.jee.server:rest-ssl-master"/><Context docBase="RESTfulExample" path="/RESTfulExample" reloadable="true" source="org.eclipse.jst.j2ee.server:RESTfulExample"/></Host>
+      <Context docBase="rest-ssl-master" path="/rest-ssl" reloadable="true" source="org.eclipse.jst.jee.server:rest-ssl-master"/><Context docBase="RESTfulExample" path="/RESTfulExample" reloadable="true" source="org.eclipse.jst.j2ee.server:RESTfulExample"/><Context docBase="com.cicidi.rest.simple" path="/com.cicidi.rest.simple" reloadable="true" source="org.eclipse.jst.j2ee.server:com.cicidi.rest.simple"/><Context docBase="JAX-RS-Client" path="/JAX-RS-Client" reloadable="true" source="org.eclipse.jst.j2ee.server:JAX-RS-Client"/><Context docBase="JAX-RS-GET-HTTP-HEADER" path="/JAX-RS-GET-HTTP-HEADER" reloadable="true" source="org.eclipse.jst.j2ee.server:JAX-RS-GET-HTTP-HEADER"/><Context docBase="JAX-RS-PATH-MATCHING-EXAMPLE" path="/JAX-RS-PATH-MATCHING-EXAMPLE" reloadable="true" source="org.eclipse.jst.j2ee.server:JAX-RS-PATH-MATCHING-EXAMPLE"/></Host>
     </Engine>
   </Service>
 </Server>

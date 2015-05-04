@@ -1,0 +1,9 @@
+package com.cicidi.multithread.threadLocal;
+
+public class threadLocalDemo {
+
+	public static void main(String[] arg) {
+		Thread thread1 = new Thread(new MyThread());
+		Thread thread2 = new Thread(new MyThread());
+	}
+}

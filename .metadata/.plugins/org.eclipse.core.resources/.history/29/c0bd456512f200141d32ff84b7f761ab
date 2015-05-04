@@ -1,0 +1,5 @@
+package com.cicidi.multithread.threadLocal;
+
+public class MyThread {
+
+}
