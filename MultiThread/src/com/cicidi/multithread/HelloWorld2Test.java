@@ -1,6 +1,6 @@
 package com.cicidi.multithread;
 
-public class HelloWorld2Test {
+public class HelloWorld2Test extends Thread {
 
 	/**
 	 * @param args
@@ -21,9 +21,15 @@ public class HelloWorld2Test {
 			// }
 			thread2.start();
 			thread2.join();
+
 		}
 		// (new Thread(new HelloWorld2("Hello"))).start();
 		// thread2.start();sss
+	}
+// 这里的Override　和其他的code　没关系，我就是用来看看getName() method 的
+	@Override
+	public void run() {
+		getName();
 	}
 }
 // ----------------------------------------------------------
