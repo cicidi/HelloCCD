@@ -3248,3 +3248,377 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected > 
 2015-05-03 20:46:37,477 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
 2015-05-03 20:46:37,479 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-05-03 20:46:37,482 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:07,544 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:11:07,601 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:11:07,627 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:11:08,860 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:11:08,923 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:11:09,033 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:11:09,837 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:09,838 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:11:09,841 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:09,841 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:11:11,115 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,116 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:11:11,118 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,122 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:11:11,311 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,311 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:11:11,313 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,314 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:11:11,694 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,695 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:11,703 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:11,704 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:11:14,708 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:14,709 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:14,713 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:14,722 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:11:15,110 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:15,112 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:11:15,116 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:15,117 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:11:16,437 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:16,437 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:11:16,439 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:16,440 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:22,903 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:11:23,061 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:11:23,135 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:11:23,912 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:11:23,956 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:11:24,042 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:11:24,837 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:24,841 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:11:24,846 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:24,846 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:11:24,978 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:24,979 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:11:24,985 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:24,986 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:11:25,122 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:25,123 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:11:25,125 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:25,125 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:11:25,791 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:25,797 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:25,799 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:25,800 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:11:28,152 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:28,153 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:11:28,158 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:28,158 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:11:29,644 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:29,645 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:11:29,648 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:11:29,657 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:11:30,021 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:30,021 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:11:30,084 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:11:30,085 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:00,191 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:12:00,331 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:12:00,404 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:12:01,067 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:12:01,105 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:12:01,200 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:12:01,966 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:01,967 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:12:01,983 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:01,984 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:12:02,129 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:02,130 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:12:02,132 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:02,133 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:12:02,299 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:02,300 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:12:02,302 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:02,302 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:12:02,993 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:02,995 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:03,001 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:03,002 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:12:04,642 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:04,643 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:04,645 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:04,646 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:12:05,860 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:05,861 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:12:05,882 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:05,883 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:12:06,035 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:06,035 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:12:06,037 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:06,038 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:38,779 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:12:38,899 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:12:38,972 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:12:39,584 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:12:39,622 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:12:39,711 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:12:40,504 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,505 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:12:40,507 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,507 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:12:40,670 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,671 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:12:40,673 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,673 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:12:40,870 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,877 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:12:40,881 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:40,882 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:12:41,576 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:41,577 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:41,579 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:41,579 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:12:43,035 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:43,036 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:12:43,038 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:43,038 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:12:44,196 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:44,200 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:12:44,204 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:12:44,207 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:12:44,500 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:44,501 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:12:44,502 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:12:44,503 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:14:52,989 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:14:53,153 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:14:53,224 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:14:53,893 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:14:53,959 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:14:54,038 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:14:54,709 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:54,710 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:14:54,712 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:54,713 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:14:54,880 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:54,902 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:14:54,904 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:54,905 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:14:55,210 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:55,213 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:14:55,215 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:55,215 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:14:55,648 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:55,649 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:14:55,653 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:55,655 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:14:57,265 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:14:57,266 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:14:57,268 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:14:57,269 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:14:58,820 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:58,821 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:14:58,824 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:14:58,825 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:14:58,981 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:14:58,981 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:14:58,983 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:14:58,983 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:15:44,739 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:15:44,839 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:15:44,902 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:15:45,713 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:15:45,796 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:15:45,913 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:15:46,615 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,616 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:15:46,619 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,620 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:15:46,794 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,797 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:15:46,799 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,800 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:15:46,940 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,940 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:15:46,942 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:46,943 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:15:47,531 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:47,532 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:15:47,534 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:47,535 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:15:49,192 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:15:49,192 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:15:49,195 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:15:49,196 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:15:50,361 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:50,363 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:15:50,366 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:15:50,366 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:15:50,508 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:15:50,509 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:15:50,512 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:15:50,515 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:58:06,632 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 12:58:06,785 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 12:58:06,844 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 12:58:07,449 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 12:58:07,514 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 12:58:07,596 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 12:58:08,316 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,317 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 12:58:08,319 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,320 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 12:58:08,562 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,562 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 12:58:08,564 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,564 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 12:58:08,665 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,665 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 12:58:08,667 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:08,668 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 12:58:09,396 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:09,402 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:58:09,404 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:09,408 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 12:58:11,558 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:58:11,559 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 12:58:11,561 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:58:11,561 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 12:58:12,567 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:12,571 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 12:58:12,577 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 12:58:12,578 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 12:58:12,751 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:58:12,751 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 12:58:12,753 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 12:58:12,753 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:34:48,247 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 13:34:48,282 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 13:34:48,329 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 13:34:48,982 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 13:34:49,034 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 13:34:49,101 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 13:34:49,612 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,616 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 13:34:49,619 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,619 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 13:34:49,760 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,760 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 13:34:49,766 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,766 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 13:34:49,969 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,970 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 13:34:49,971 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:49,972 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 13:34:50,267 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:50,268 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:34:50,270 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:50,271 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 13:34:52,330 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:34:52,330 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:34:52,333 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:34:52,333 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 13:34:53,295 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:53,301 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 13:34:53,304 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:34:53,305 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 13:34:53,549 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:34:53,549 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 13:34:53,551 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:34:53,551 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:42:49,847 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 13:42:49,969 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 13:42:50,040 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 13:42:50,494 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 13:42:50,548 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 13:42:50,778 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 13:42:51,618 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:51,618 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 13:42:51,620 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:51,621 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 13:42:51,856 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:51,857 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 13:42:51,861 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:51,862 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 13:42:52,014 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:52,015 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 13:42:52,016 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:52,017 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 13:42:52,706 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:52,708 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:42:52,715 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:52,719 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 13:42:54,444 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:42:54,445 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 13:42:54,447 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:42:54,447 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 13:42:55,568 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:55,570 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 13:42:55,596 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 13:42:55,596 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 13:42:55,959 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:42:55,960 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 13:42:55,961 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 13:42:55,962 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:00:14,189 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 14:00:14,259 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 14:00:14,323 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 14:00:14,623 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 14:00:14,652 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 14:00:14,724 [Worker-146] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 14:00:15,450 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:15,451 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 14:00:15,452 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:15,453 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 14:00:16,134 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,134 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 14:00:16,135 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,136 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 14:00:16,205 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,205 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 14:00:16,207 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,207 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 14:00:16,473 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,474 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:00:16,476 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:16,477 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 14:00:18,080 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:00:18,083 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:00:18,085 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:00:18,086 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 14:00:19,128 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:19,129 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 14:00:19,131 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:00:19,131 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 14:00:19,223 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:00:19,223 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 14:00:19,225 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:00:19,225 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:01:00,884 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-Client
+2015-05-05 14:01:00,949 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-GET-HTTP-HEADER
+2015-05-05 14:01:01,015 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JAX-RS-PATH-MATCHING-EXAMPLE
+2015-05-05 14:01:01,376 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bean-validation-webapp
+2015-05-05 14:01:01,394 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.cicidi.rest.simple
+2015-05-05 14:01:01,433 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for rest-ssl-master
+2015-05-05 14:01:02,016 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,017 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/main/resources
+2015-05-05 14:01:02,019 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,020 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-Client/src/test/resources
+2015-05-05 14:01:02,272 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,272 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/main/resources
+2015-05-05 14:01:02,279 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,279 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-GET-HTTP-Header/src/test/resources
+2015-05-05 14:01:02,504 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,504 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/main/resources
+2015-05-05 14:01:02,510 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,511 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/JAX-RS-PATH-URI-Mathing-Example/src/test/resources
+2015-05-05 14:01:02,985 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,986 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:01:02,987 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:02,988 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/Spring/src/test/resources
+2015-05-05 14:01:04,134 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:01:04,138 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-05 14:01:04,141 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:01:04,141 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/jersey-master/examples/bean-validation-webapp/src/test/resources
+2015-05-05 14:01:04,844 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:04,845 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2015-05-05 14:01:04,847 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-05 14:01:04,847 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/com.cicidi.rest.simple/src/test/resources
+2015-05-05 14:01:05,097 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:01:05,097 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jianming/workspace/HelloCCD/RestWebService/rest-ssl-master/src/main/resources
+2015-05-05 14:01:05,099 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:01:05,099 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

@@ -1,0 +1,23 @@
+package com.cicidi.multithread.notify;
+
+public class ThreadLocalMgt {
+	public static final ThreadLocal<String> threadLocal;
+	public static int Flag;
+	static {
+		threadLocal = new ThreadLocal<String>();
+	}
+
+	public static void set(String msg) {
+		System.out.println("Setting msg  " + Thread.currentThread().getName());
+		threadLocal.set(msg);
+	}
+
+	public static String get() {
+
+		return threadLocal.get();
+	}
+
+	public static ThreadLocal<String> getThreadLocal() {
+		return threadLocal;
+	}
+}

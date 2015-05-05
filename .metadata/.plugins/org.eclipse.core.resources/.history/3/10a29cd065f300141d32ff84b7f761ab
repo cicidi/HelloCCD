@@ -1,0 +1,42 @@
+package com.cicidi.multithread.notify;
+
+public class ThreadMgt implements Runnable {
+	String[] msg;
+
+	@Override
+	public void run() {
+
+		// TODO Auto-generated method stub
+		// ThreadLocalMgt.set(msg);
+		synchronized (msg) {
+
+			if (Thread.currentThread().getName().equals("World")) {
+				if (ThreadLocalMgt.Flag) {
+					try {
+						msg.wait();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				System.out.println("Thread name =  "
+						+ Thread.currentThread().getName() + "  " + "World");
+			} else if (Thread.currentThread().getName().equals("Hello")) {
+				// ThreadLocalMgt.threadLocal.wait();
+				System.out.println("Thread name =  "
+						+ Thread.currentThread().getName() + "  " + "Hello");
+				ThreadLocalMgt.Flag = "Hello";
+				msg.notify();
+				;
+			}
+		}
+	}
+
+	public ThreadMgt(String[] msg) {
+
+		// ThreadLocalMgt.set(msg);这个方法如果在这个地方run，实际上是main　thread　在call
+		// 需要给他放到run　方法里面
+		this.msg = msg;
+
+	}
+}
