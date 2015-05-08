@@ -1,0 +1,12 @@
+package com.cicidi.multithread.notify;
+
+public class ThreadMgt implements Runnable {
+
+	@Override
+	public void run() {
+		char[] msg;
+		// TODO Auto-generated method stub
+		System.out.println(msg);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.cicidi.singleton;
+
+public class SingletonClass {
+
+	StaticClass sc = new StaticClass();
+
+	public void getMethod() {
+		sc.run();
+		StaticClass.hello();
+	}
+
+	public static class StaticClass implements Runnable {
+		public static void hello() {
+
+		}
+
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+
+		}
+	}
+}

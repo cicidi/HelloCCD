@@ -1,0 +1,19 @@
+package com.cicidi.multithread.notify;
+
+public class ThreadMgt implements Runnable {
+	String msg;
+
+	@Override
+	public void run() {
+
+		// TODO Auto-generated method stub
+		ThreadLocalMgt.set(msg);
+		System.out.println(Thread.currentThread().getName() + "  "
+				+ ThreadLocalMgt.get());
+	}
+
+	public ThreadMgt(String msg) {
+//		ThreadLocalMgt.set(msg);
+		this.msg=msg
+	}
+}

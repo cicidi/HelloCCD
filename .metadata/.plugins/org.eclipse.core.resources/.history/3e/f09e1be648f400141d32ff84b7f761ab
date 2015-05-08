@@ -1,0 +1,28 @@
+package com.cicidi.singleton;
+
+public class SingletonClass {
+
+	public static void main(String[] arg) {
+		(new SingletonClass()).getMethod();
+	}
+
+	StaticClass sc = new StaticClass();
+
+	public void getMethod() {
+		sc.get();
+		StaticClass.hello();
+	}
+
+	public static class StaticClass implements IStatic {
+		public static void hello() {
+			System.out.println("Hello");
+		}
+
+		@Override
+		public void get() {
+			// TODO Auto-generated method stub
+			System.out.println("get");
+		}
+
+	}
+}

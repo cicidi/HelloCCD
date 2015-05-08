@@ -1,0 +1,10 @@
+package com.cicidi.multithread.threadLocal;
+
+public class ThreadLocalManagement {
+
+	private final ThreadLocal threadLocal = new ThreadLocal();
+
+	public static ThreadLocal getThreadLocal() {
+		return threadLocal;
+	}
+}

@@ -1,0 +1,15 @@
+package com.cicidi.multithread.notify;
+
+public class Test {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		String[] array = { "Hello", "World" };
+		Thread thread1 = new Thread(new ThreadMgt(array));
+		Thread thread2 = new Thread(new ThreadMgt("array"));
+		thread1.start();
+
+		thread2.start();
+
+	}
+}

@@ -1,0 +1,18 @@
+package com.cicidi.hashMap;
+
+import java.util.HashMap;
+
+import com.cicidi.context.Student;
+
+public class SdtHashMap {
+
+	private HashMap<Student, String> sdtMap = new HashMap<Student, String>();
+
+	public void add(Student sdt) {
+		sdtMap.put(sdt, sdt.getAddress());
+	}
+
+	public String get(Student sdt) {
+		return sdtMap.get(sdt);
+	}
+}

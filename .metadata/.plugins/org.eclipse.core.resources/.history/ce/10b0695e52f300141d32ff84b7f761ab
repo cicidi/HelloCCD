@@ -1,0 +1,11 @@
+package com.cicidi.multithread.notify;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread thread1 = new Thread(new ThreadMgt("Hello"));
+		Thread thread2 = new Thread(new ThreadMgt("World"));
+		thread1.run();
+	}
+}

@@ -1,0 +1,18 @@
+package com.cicidi.multithread;
+
+public class HelloWorld2 implements Runnable {
+	private Thread thread;
+	private String threadName;
+
+	public HelloWorld2() {
+		// TODO Auto-generated constructor stub
+		this.thread = new Thread();
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.cicidi.multithread.threadLocal;
+
+public class MyThread implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		ThreadLocalManagement tlMgt = new ThreadLocalManagement();
+		tlMgt.getThreadLocal().set(getName());
+
+	}
+
+}

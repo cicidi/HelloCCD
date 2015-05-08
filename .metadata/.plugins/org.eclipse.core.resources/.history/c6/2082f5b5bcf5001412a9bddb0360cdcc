@@ -1,0 +1,11 @@
+package com.cicidi.CompareMethod;
+
+public class testCompareMethod {
+	/*
+	 * Forgot requirement/
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.cicidi.multithread.threadLocal;
+
+public class threadLocalDemo {
+
+	Thread thread1 = new Thread(new MyThread());
+	Thread thread2 = new Thread(new MyThread());
+
+	public threadLocalDemo() {
+		// TODO Auto-generated constructor stub
+	}
+}

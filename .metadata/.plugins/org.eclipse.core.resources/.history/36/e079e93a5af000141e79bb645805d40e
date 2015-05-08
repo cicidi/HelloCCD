@@ -1,0 +1,17 @@
+package com.cicidi.multithread;
+
+public class HelloWorld {
+	public static void main(String[] arg) {
+		Thread thread1 = new Thread() {
+			public void run() {
+				System.out.print("Hello");
+			}
+		};
+
+		Thread thread1 = new Thread() {
+			public void run() {
+				System.out.print("Hello");
+			}
+		};
+	}
+}

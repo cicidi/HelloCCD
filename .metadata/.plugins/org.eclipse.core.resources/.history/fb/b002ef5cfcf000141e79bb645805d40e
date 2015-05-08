@@ -1,0 +1,11 @@
+package com.cicidi.string;
+
+public class StringNewExmaple {
+String a=new String("Linux");
+String b=new String("Linux");
+String c="Linux";
+String d="Linux";
+System.out.println();
+
+
+}

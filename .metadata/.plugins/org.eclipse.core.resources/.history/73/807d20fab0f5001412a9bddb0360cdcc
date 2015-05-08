@@ -1,0 +1,62 @@
+package com.cicidi.hashMap;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.cicidi.context.Student;
+
+public class SdtHashMapTest {
+	// public class SdtHashMapTest extends Runner {
+
+	private static Student sdt1;
+	private static Student sdt2;
+	private SdtService sdtMap;
+	private static Student sdt3;
+	private static Student sdt4;
+
+	@Test
+	public void testAdd() {
+		sdtMap = new SdtService();
+		sdtMap.add(sdt1);
+		sdtMap.add(sdt2);
+		sdtMap.add(sdt3);
+		sdtMap.add(sdt4);
+		assertEquals(3, sdtMap.getSdtMap().keySet().size());
+		// fail("Not yet implemented");
+	}
+
+	// @Test
+	// public void testGet() {
+	// fail("Not yet implemented");
+	// }
+
+	@BeforeClass
+	public static void init() {
+		sdt1 = new Student("Bob", 19, "NY");
+		sdt2 = new Student("Mike", 55, "CA");
+		sdt3 = new Student("Bob", 19, "NY");
+		sdt4 = new Student("Tom", 55, "NY");
+
+	}
+
+	@AfterClass
+	@Test
+	public static void tearDownClass() throws Exception {
+		// Code executed after the last test method
+	}
+	// @Override
+	// public Description getDescription() {
+	// // TODO Auto-generated method stub
+	// return null;
+	// }
+	//
+	// @Override
+	// public void run(RunNotifier notifier) {
+	// // TODO Auto-generated method stub
+	//
+	// }
+
+}

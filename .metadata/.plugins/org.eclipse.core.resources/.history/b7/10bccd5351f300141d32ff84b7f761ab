@@ -1,0 +1,8 @@
+package com.cicidi.multithread.notify;
+
+public class TheadLocalMgt {
+	public static final ThreadLocal threadLocal;
+	static {
+		threadLocal = new ThreadLocal();
+	}
+}
