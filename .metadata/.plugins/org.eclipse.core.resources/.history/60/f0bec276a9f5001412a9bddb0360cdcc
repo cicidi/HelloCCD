@@ -1,0 +1,10 @@
+package com.cicidi.hashMap;
+
+import java.util.HashMap;
+
+import com.cicidi.context.Student;
+
+public class SdtHashMapTest {
+
+	private HashMap<Student, String> sdtMap = new HashMap<Student, String>();
+}

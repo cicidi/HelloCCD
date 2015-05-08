@@ -4,7 +4,6 @@ INDEX VERSION 1.3+/home/jianming/workspace/HelloCCD/.metadata/.plugins/org.eclip
 3060886644.index
 3741686572.index
 577365312.index
-4173906976.index
 4146676340.index
 65589906.index
 4083008529.index

@@ -1,0 +1,18 @@
+package com.cicidi.singleton;
+
+public class SingletonClass {
+
+	StaticClass sc = new StaticClass();
+
+	public void getMethod() {
+		sc.run();
+		StaticClass.hello();
+	}
+
+	public static class StaticClass implements IStatic {
+		public static void hello() {
+
+		}
+
+	}
+}

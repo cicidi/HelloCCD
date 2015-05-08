@@ -1,0 +1,26 @@
+package com.cicidi.generic;
+
+import java.util.Arrays;
+
+public class GenericTest {
+	public static void main(String[] arg) {
+		Integer[] intArray = { 1, 23, 82, 83, 13, 25 };
+		Double[] doubleArray = { 1.0, 23.1, 82.4, 83.7, 13.1, 25.0 };
+		testGenericMethod(intArray);
+		testGenericMethod(doubleArray);
+	}
+
+	public static <T> void testGenericMethod(T[] array) {
+		Arrays.sort(array);
+		System.out.println("Test Generic Method");
+		for (T a : array) {
+			System.out.print(a + "\t");
+		}
+		System.out.println();
+	}
+
+	// public static <T extends Comparable> void testGenericMethodBoundedType(T
+	// x,T y,Tz) {
+	// }
+
+}

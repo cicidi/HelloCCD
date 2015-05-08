@@ -1,0 +1,6 @@
+package com.cicidi.singleton;
+
+public interface IStatic {
+//	static void get();
+
+}

@@ -1,0 +1,16 @@
+package com.cicidi.finalKey;
+
+public class FinalKeyWord {
+	private final Student std = new Student();
+
+	public static void main(String[] arg) {
+		FinalKeyWord fk = new FinalKeyWord();
+		fk.getStudent().setName("cicidi");
+		System.out.println(fk.getStudent().getName());
+		System.out.println(fk.getStudent().getAge());
+	}
+
+	public Student getStudent() {
+		return this.std;
+	}
+}

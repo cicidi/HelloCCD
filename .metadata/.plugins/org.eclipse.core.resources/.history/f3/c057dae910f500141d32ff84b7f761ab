@@ -1,0 +1,10 @@
+package com.cicidi.generic;
+
+public class GenericTest {
+	public static void main(String[] arg) {
+
+	}
+
+	public static <T> void getResult() {
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;algorithm/src/com/anagram/main&apos; to &apos;Main.java&apos;" description="Rename resource &apos;main&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/anagram/main" name="Main.java" stamp="1431027031044" updateReferences="true"/>
+</session>
