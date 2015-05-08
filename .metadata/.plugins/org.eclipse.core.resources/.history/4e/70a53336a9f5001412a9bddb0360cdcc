@@ -1,7 +1,0 @@
-package com.cicidi.hashMap;
-
-
-public class SdtHashMapTest {
-
-	private HashMap<Student> sdtMap=new HashMap<Student>():
-}

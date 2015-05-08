@@ -1,6 +1,0 @@
-myname=Vivek
-myos=TroubleOS
-myno=5
-echo "myname is $myname"
-echo "my os is $myos"
-echo "my number is $myno,can you see this number"

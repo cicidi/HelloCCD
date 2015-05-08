@@ -1,9 +1,0 @@
-package com.cicidi.multithread.threadLocal;
-
-public class ThreadLocalManagement {
-
-	private final ThreadLocal threadLocal;
-
-	public class ThreadLocalManagement {
-	};
-}
