@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<bookmark time="2005-10-21T12:07:30" url="http://www.example.org/one">
-   <description>Example of a Delicious bookmark</description>
-   <tags count="2">
-      <tag href="http://del.icio.us/api/peej/tags/example" name="example"/>
-      <tag href="http://del.icio.us/api/peej/tags/test" name="test"/>
-   </tags>
-</bookmark>
