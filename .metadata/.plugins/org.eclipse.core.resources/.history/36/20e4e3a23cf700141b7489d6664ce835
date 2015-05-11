@@ -1,0 +1,12 @@
+package com.cicidi.singleton;
+
+public class SingletonTest {
+	private Student instance;
+
+	public Student getSingletonInstance() {
+		if (instance == null) {
+			instance = new Student();
+		}
+		return instance;
+	}
+}

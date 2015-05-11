@@ -1,0 +1,25 @@
+package com.cicidi.singleton;
+
+public class SingletonTest {
+	private Student instance;
+
+	public Student getSingletonInstance() {
+		synchronized (instance) {
+			if (instance == null) {
+				instance = new Student("cicidi", 29, "CA");
+			}
+		}
+		return instance;
+	}
+
+	public static void main(String[] args) {
+	Thread thread1=new Thread(new Runnable() {
+		
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			
+		}
+	})
+	}
+}

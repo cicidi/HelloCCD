@@ -1,0 +1,9 @@
+package com.cicidi.singleton;
+
+public class SingletonTest {
+	private Student instance;
+
+	public Student getSingletonInstance() {
+	}
+
+}
