@@ -1,0 +1,8 @@
+package com.cicidi.ssh.Bo.Impl;
+
+import com.cicidi.ssh.Bo.StudentBo;
+
+public class StudentBoImpl implements StudentBo 
+
+
+}

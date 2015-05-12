@@ -1,0 +1,47 @@
+package com.cicidi.ssh.dao.impl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.cicidi.ssh.dao.StudentDao;
+import com.cicidi.ssh.model.Student;
+
+public class StudentDaoImpl implements StudentDao {
+	private SessionFactory sessionFactory;
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	public void save(Student student) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		Transaction trans = session.beginTransaction();
+		session.save(student);
+	}
+
+	public Student findById(int id) {
+		// TODO Auto-generated method stub
+
+		return (Student) sessionFactory.getCurrentSession().load(Student.class,
+				id);
+
+	}
+
+	public void update(Student student) {
+		// TODO Auto-generated method stub
+		sessionFactory.getCurrentSession().update(student);
+
+	}
+
+	public void delete(Student student) {
+		// TODO Auto-generated method stub
+		sessionFactory.getCurrentSession().delete(student);
+	}
+
+}

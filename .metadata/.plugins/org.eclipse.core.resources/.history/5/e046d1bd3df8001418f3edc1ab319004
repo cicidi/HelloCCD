@@ -1,0 +1,37 @@
+package com.cicidi.ssh.test;
+
+import java.sql.Time;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cicidi.ssh.bo.StudentBo;
+import com.cicidi.ssh.model.Student;
+
+public class TestMain {
+	public static void main(String[] args) {
+		ApplicationContext appContext = new ClassPathXmlApplicationContext(
+				"config/BeanLocations.xml");
+
+		StudentBo studentBo = (StudentBo) appContext.getBean("studentBo");
+
+		/** insert **/
+		Student student = new Student();
+		student.setStudentId(234);
+		student.setStudentName(System.currentTimeMillis());
+		studentBo.save(student);
+
+		/** select **/
+		Student student2 = studentBo.findByID(234);
+		System.out.println(student2);
+
+		/** update **/
+		student2.setStudentName(Time.class.getc);
+		studentBo.update(student2);
+
+		/** delete **/
+		// studentBo.delete(student2);
+
+		System.out.println("Done");
+	}
+}

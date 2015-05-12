@@ -1,0 +1,13 @@
+package com.cicidi.ssh.bo;
+
+import com.cicidi.ssh.model.Student;
+
+public interface StudentBo {
+	public void save(Student student);
+
+	public void findById(Long id);
+
+	public void update(Student student);
+
+	public void delete(Student student);
+}

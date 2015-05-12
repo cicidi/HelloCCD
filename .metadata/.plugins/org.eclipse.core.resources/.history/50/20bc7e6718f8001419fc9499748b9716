@@ -1,0 +1,35 @@
+package com.cicidi.ssh.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cicidi.ssh.Bo.StudentBo;
+import com.cicidi.ssh.model.Student;
+
+public class TestMain {
+	public static void main(String[] args) {
+		ApplicationContext appContext = new ClassPathXmlApplicationContext(
+				"spring/config/BeanLocations.xml");
+
+		StudentBo studentBo = (StudentBo) appContext.getBean("studentBo");
+
+		/** insert **/
+		Student student = new Student();
+		student.setStudentCode(123l);
+		student.setStudentName("HAIO");
+		studentBo.save(student);
+
+		/** select **/
+		Student student2 = studentBo.findByID(123l);
+		System.out.println(student2);
+
+		/** update **/
+		student2.setStudentName("HAIO-1");
+		studentBo.update(student2);
+
+		/** delete **/
+		studentBo.delete(student2);
+
+		System.out.println("Done");
+	}
+}
