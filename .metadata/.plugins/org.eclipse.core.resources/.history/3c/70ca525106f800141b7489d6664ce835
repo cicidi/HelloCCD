@@ -1,5 +1,0 @@
-package com.cicidi.ssh.bo;
-
-public interface StudentBo {
-	public void(){}
-}

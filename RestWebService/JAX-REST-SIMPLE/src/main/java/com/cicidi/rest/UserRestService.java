@@ -1,22 +1,9 @@
 package com.cicidi.rest;
 
-import java.util.List;
-
-import javax.annotation.Resource;
-import javax.servlet.ServletContext;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.xml.bind.JAXBException;
-
-import com.cicidi.rest.model.AbstractBookmark;
-import com.cicidi.rest.model.BookmarkRef;
-import com.cicidi.rest.model.Bookmarks;
-import com.cicidi.rest.model.interprator.XmlReader;
 
 @Path("/users")
 public class UserRestService {
@@ -75,44 +62,41 @@ public class UserRestService {
 				.entity("getUserBookByISBN is called, isbn : " + isbn).build();
 
 	}
-
-	@GET
-	@Path("/username/bookmarks")
-	@Produces(MediaType.APPLICATION_ATOM_XML)
-	public AbstractBookmark getAllUserBookmarks(@Context ServletContext ctx) {
-		AbstractBookmark intance = null;
-		String path = ctx.getRealPath("/WEB-INF/xml/");
-		try {
-			intance = XmlReader.unmarshall("bookmarks", path);
-		} catch (JAXBException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		// return Response.status(200)
-		// .entity("getUserBookByISBN is called, isbn : ").build();
-		return intance;
-	}
-
-	@GET
-	@Path("/username/bookmark/{id}")
-	@Produces(MediaType.APPLICATION_ATOM_XML)
-	public AbstractBookmark getAllUserBookmarks(@Context ServletContext ctx,
-			@PathParam("id") String id) {
-		AbstractBookmark instance = null;
-		String path = ctx.getRealPath("/WEB-INF/xml/");
-		try {
-			instance = XmlReader.unmarshall("bookmarks", path);
-		} catch (JAXBException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		// return Response.status(200)
-		// .entity("getUserBookByISBN is called, isbn : ").build();
-		List<BookmarkRef> bookMarkList = ((Bookmarks) instance).getBookmark();
-		for (BookmarkRef ref : bookMarkList) {
-			ref.getHref();
-		}
-
-		return instance;
-	}
+	/*
+	 * @GET
+	 * 
+	 * @Path("/username/bookmarks")
+	 * 
+	 * @Produces(MediaType.APPLICATION_ATOM_XML) public AbstractBookmark
+	 * getAllUserBookmarks(@Context ServletContext ctx) { AbstractBookmark
+	 * intance = null; String path = ctx.getRealPath("/WEB-INF/xml/"); try {
+	 * intance = XmlReader.unmarshall("bookmarks", path); } catch (JAXBException
+	 * e) { // TODO Auto-generated catch block e.printStackTrace(); } // return
+	 * Response.status(200) //
+	 * .entity("getUserBookByISBN is called, isbn : ").build(); return intance;
+	 * }
+	 */
+	//
+	// @GET
+	// @Path("/username/bookmark/{id}")
+	// @Produces(MediaType.APPLICATION_ATOM_XML)
+	// public AbstractBookmark getAllUserBookmarks(@Context ServletContext ctx,
+	// @PathParam("id") String id) {
+	// AbstractBookmark instance = null;
+	// String path = ctx.getRealPath("/WEB-INF/xml/");
+	// try {
+	// instance = XmlReader.unmarshall("bookmarks", path);
+	// } catch (JAXBException e) {
+	// // TODO Auto-generated catch block
+	// e.printStackTrace();
+	// }
+	// // return Response.status(200)
+	// // .entity("getUserBookByISBN is called, isbn : ").build();
+	// List<BookmarkRef> bookMarkList = ((Bookmarks) instance).getBookmark();
+	// for (BookmarkRef ref : bookMarkList) {
+	// ref.getHref();
+	// }
+	//
+	// return instance;
+	// }
 }

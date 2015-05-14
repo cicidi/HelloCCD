@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<bookmarks end="2" next="http://del.icio.us/api/peej/bookmarks?start=3&amp;end=4" start="1">
-   <bookmark href="http://del.icio.us/api/peej/bookmarks/a211528fb5108cddaa4b0d3aeccdbdcf" tags="example,test" time="2005-10-21T12:07:30" url="http://www.example.org/one">Example of a Delicious bookmark</bookmark>
-   <bookmark href="http://del.icio.us/api/peej/bookmarks/e47d06a59309774edab56813438bd3ce" tags="example,test" time="2005-10-21T12:34:16" url="http://www.example.org/two">Another example of a Delicious bookmark</bookmark>
-</bookmarks>
