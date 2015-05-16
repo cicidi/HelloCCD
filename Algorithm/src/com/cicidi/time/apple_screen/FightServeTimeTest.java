@@ -4,6 +4,52 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FightServeTimeTest {
+
+	/*
+	 * CODING 2
+	 * 
+	 * 
+	 * 
+	 * How much time (in seconds) does it take for a flight attendant to serve
+	 * coffee?
+	 * 
+	 * 
+	 * 
+	 * There are n passengers on a plane.
+	 * 
+	 * There is only one passenger sitting per row.
+	 * 
+	 * There are no empty rows.
+	 * 
+	 * The flight attendant carries a coffee pot that can serve 7 passengers.
+	 * 
+	 * The flight attendant starts serving passengers from the front of the
+	 * plane with a full pot of coffee.
+	 * 
+	 * It takes 1 second for the flight attendant to move from one row to
+	 * another.
+	 * 
+	 * It takes 3 seconds for the flight attendant to fill a cup of coffee.
+	 * 
+	 * Refilling the coffee pot takes 30 seconds regardless of how much coffee
+	 * is added.
+	 * 
+	 * After serving all passengers, the flight attendant needs to return to the
+	 * front of the plane.
+	 * 
+	 * 
+	 * 
+	 * Write an algorithm that finds the amount of time needed to serve all
+	 * passengers if only the passengers in the rows defined in the table [i]
+	 * (below) ordered coffee.
+	 * 
+	 * There are n number of rows.
+	 * 
+	 * int n = 30; // 1 - 31
+	 * 
+	 * int i[] = {3, 4, 5, 7, 10, 13, 18, 20, 24, 25}; // a set of rows where
+	 * seated passengers want to order coffee
+	 */
 	// suppose Row 1 is the coffee machine;
 	// The fight attendant goes to Row 1 to refill the coffee
 	@Test
