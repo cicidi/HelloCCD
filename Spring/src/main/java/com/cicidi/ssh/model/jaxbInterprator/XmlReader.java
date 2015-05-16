@@ -1,6 +1,7 @@
 package com.cicidi.ssh.model.jaxbInterprator;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -13,14 +14,14 @@ import com.cicidi.ssh.model.BookmarkRef;
 import com.cicidi.ssh.model.Bookmarks;
 import com.cicidi.ssh.model.Wrapper;
 
-public class XmlReader<T> {
+public class XmlReader {
 
 	@SuppressWarnings("unchecked")
 	private static <T> List<T> unmarshal(Unmarshaller unmarshaller,
 			Class<T> clazz, String xmlLocation) throws JAXBException {
 		StreamSource xml = new StreamSource(xmlLocation);
-		Wrapper<T> wrapper = (Wrapper<T>) unmarshaller.unmarshal(xml,
-				Wrapper.class).getValue();
+		Wrapper<T> wrapper = unmarshaller.unmarshal(xml, Wrapper.class)
+				.getValue();
 		return wrapper.getItems();
 	}
 
@@ -39,28 +40,30 @@ public class XmlReader<T> {
 	}
 
 	// load sample data;
-	public static void load() {
+	@SuppressWarnings("null")
+	public static List<Object> load() {
 		File sourceDir = new File("src/main/resources/xml/");
 		File[] files = sourceDir.listFiles();
+		List<Object> objList = new ArrayList();
 		for (File file : files) {
 			JAXBContext jaxbContext = null;
 			jaxbContext = ModelJAXBContext.initContext();
 			Unmarshaller jaxbUnmarshaller;
+
 			try {
 				jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-
-				Bookmark bookmark_2 = (Bookmark) unmarshal(jaxbUnmarshaller,
-						file);
+				objList.add(unmarshal(jaxbUnmarshaller, file));
 			} catch (JAXBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
+		return objList;
 	}
 
 	public static void main(String[] args) {
 		try {
-			String fileName = "bookmarkInstance";
+			String fileName = "bookmark";
 			String fileName_list = "bookmarks";
 			String location = "src/main/resources/xml/" + fileName + ".xml";
 			String location_list = "src/main/resources/xml/" + fileName_list

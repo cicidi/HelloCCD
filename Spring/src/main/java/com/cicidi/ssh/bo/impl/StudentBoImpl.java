@@ -1,13 +1,16 @@
 package com.cicidi.ssh.bo.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.cicidi.ssh.bo.StudentBo;
 import com.cicidi.ssh.dao.StudentDao;
 import com.cicidi.ssh.model.Student;
 
+@Component
 public class StudentBoImpl implements StudentBo {
-
+	@Autowired
 	private StudentDao studentDao;
 
 	public StudentDao getStudentDao() {

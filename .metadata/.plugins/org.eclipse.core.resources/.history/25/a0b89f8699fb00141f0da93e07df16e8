@@ -1,0 +1,91 @@
+package com.cicidi.time.apple_screen;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+// suppose Row 1 is the coffee machine;
+// The fight attendant goes to Row 1 to refill the coffee
+
+public class FightServeTime {
+	final int move = 1;
+	final int fill = 3;
+	final int refill = 30;
+	int totalRow = 30;
+	public int currentRow = 1;
+	int stopBy = 1;
+	ArrayList<Integer> serveRequired;
+	public int startTime;
+	public int currentTime = 0;
+	int capacity = 7;
+
+	public void init(Integer[] array) {
+		// The passenger on which rows ordered for coffee
+		serveRequired = new ArrayList<Integer>(Arrays.asList(array));
+		// Total row of the plane
+		totalRow = 30;
+		// Fight attendant current Row
+		currentRow = 1;
+		// when Fight attendant need to refill, set a flag where to restart
+		stopBy = 1;
+		// startServing time
+		startTime = 0;
+		// current Time
+		currentTime = 0;
+		// coffee Pot capacity
+		capacity = 7;
+
+	}
+
+	public int start(int stopBy) {
+
+		for (int i = 0; i < serveRequired.size(); i++) {
+
+			// if (capacity > 0) {
+			while (currentRow < serveRequired.get(i)) {
+				move(currentRow + 1);
+			}
+			if (currentRow == serveRequired.get(i)) {
+				fill();
+			}
+			if (capacity == 0 && i < serveRequired.size() - 1) {
+				refill();
+			}
+			continue;
+			// }
+
+		}
+		move(1);
+		return currentTime - startTime;
+	}
+
+	public boolean check() {
+		return false;
+	}
+
+	public void move(int targetRow) {
+		currentTime = currentTime + Math.abs(targetRow - currentRow) * 1;
+		currentRow = targetRow;
+	}
+
+	public void fill() {
+		currentTime += fill;
+		capacity--;
+	}
+
+	public void refill() {
+		stopBy = currentRow;
+		move(1);
+		currentTime += refill;
+		capacity = 7;
+		move(stopBy + 1);
+		// start(currentRow);
+	}
+
+	public static void main(String[] args) {
+		FightServeTime action = new FightServeTime();
+		Integer[] array = { 3, 4, 5, 7, 10, 13, 20 };
+		action.init(array);
+		action.start(action.currentRow);
+		System.out.println("Total Spend time is "
+				+ (action.currentTime - action.startTime) + "seconds");
+	}
+}

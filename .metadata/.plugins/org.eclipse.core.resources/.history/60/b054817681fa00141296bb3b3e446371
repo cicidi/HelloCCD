@@ -1,0 +1,14 @@
+package com.cicidi.ssh.dao;
+
+import com.cicidi.ssh.model.Bookmark;
+
+public interface BookmarkDao {
+
+	public void save(Bookmark Bookmark);
+
+	public Bookmark findById(int id);
+
+	public void update(Bookmark Bookmark);
+
+	public void delete(Bookmark Bookmark);
+}

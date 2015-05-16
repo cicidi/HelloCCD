@@ -1,0 +1,6 @@
+package com.cicidi.generic.apple_screen;
+
+public class Fruit {
+	protected int id;
+	protected String name;
+}

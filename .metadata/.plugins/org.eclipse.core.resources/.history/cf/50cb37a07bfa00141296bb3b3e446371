@@ -1,0 +1,7 @@
+package com.cicidi.ssh.service.impl;
+
+import com.cicidi.ssh.service.IPushData;
+
+public class PushDataImpl implements IPushData {
+
+}

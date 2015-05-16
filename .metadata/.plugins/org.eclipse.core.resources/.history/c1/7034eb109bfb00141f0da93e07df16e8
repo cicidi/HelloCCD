@@ -1,0 +1,66 @@
+package com.cicidi.generic.apple_screen;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map.Entry;
+
+public class InstanceContainer<K, V> {
+
+	private LinkedHashMap<K, V> map = new LinkedHashMap<K, V>();
+
+	public void add(K k, V v) {
+		map.put(k, v);
+
+	}
+
+	public void get(K k) {
+		map.get(k);
+	}
+
+	public void remove(K k) {
+		map.remove(k);
+	}
+
+	public List<V> iterator() {
+		List<V> list = new ArrayList<V>();
+		for (Entry<K, V> entry : map.entrySet()) {
+			list.add(entry.getValue());
+		}
+		return list;
+	}
+
+	public static <K, V> void main(String[] args) {
+		FruitContainer containerMgt = new FruitContainer();
+		Apple app1 = new Apple(001, "app1");
+		Apple app2 = new Apple(002, "app2");
+		Orange org1 = new Orange(101, "org1");
+		Orange org2 = new Orange(102, "org2");
+
+		Pear pear1 = new Pear(201, "pear1");
+		Pear pear2 = new Pear(202, "pear2");
+		Pear pear3 = new Pear(203, "pear3");
+
+		containerMgt.add(app1);
+		containerMgt.add(app2);
+		containerMgt.add(org1);
+		containerMgt.add(org2);
+		containerMgt.add(pear1);
+		containerMgt.add(pear2);
+		containerMgt.add(pear3);
+
+		List<Pear> list = containerMgt.findAll(FruitType.Pear);
+		for (Pear p : list) {
+			System.out.println(p.getId());
+		}
+		containerMgt.remove(pear2);
+		list = containerMgt.findAll(FruitType.Pear);
+		for (Pear p : list) {
+			System.out.println(p.getId());
+		}
+		list = containerMgt.findAll(FruitType.Fruit);
+		for (Fruit f : list) {
+			System.out.println(f.getId());
+		}
+	}
+}

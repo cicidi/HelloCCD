@@ -1,0 +1,5 @@
+package com.cicidi.generic.apple_screen;
+
+public class Apple extends Fruit {
+
+}

@@ -1,0 +1,71 @@
+package com.cicidi.generic.apple_screen;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class Container<K, V> {
+
+	private LinkedHashMap<K, V> map = new LinkedHashMap<K, V>();
+
+	public void add(K k, V v) {
+		map.put(k, v);
+
+	}
+
+	public void get(K k) {
+		map.get(k);
+	}
+
+	public void remove(K k) {
+		map.remove(k);
+	}
+
+	public List<V> iterator() {
+		List<V> list = new ArrayList<V>();
+		for (Entry<K, V> entry : map.entrySet()) {
+			list.add(entry.getValue());
+		}
+		return list;
+	}
+
+	public <K, V> Container<K, V> initContainer(Fruit fruit) {
+		return (Container<K, V>) new Container<K, Fruit>();
+	}
+
+	@SuppressWarnings("unchecked")
+	public static <K, V> void main(String[] args) {
+		Apple app1 = new Apple(001, "app1");
+		Apple app2 = new Apple(002, "app2");
+		Orange org1 = new Orange(101, "org1");
+		Orange org2 = new Orange(102, "org2");
+
+		Pear pear1 = new Pear(201, "pear1");
+		Pear pear2 = new Pear(202, "pear2");
+		Pear pear3 = new Pear(203, "pear3");
+		Map<String, Container<K, V>> container = new HashMap<String, Container<K, V>>();
+		Container<Integer, Apple> appleContainer = new Container<Integer, Apple>();
+		Container<Integer, Orange> orangeContainer = new Container<Integer, Orange>();
+		Container<Integer, Pear> pearContainer = new Container<Integer, Pear>();
+		container.put(app1.getClass(), appleContainer.getClass());
+		appleContainer.add(app1.getId(), app1);
+		appleContainer.add(app2.getId(), app2);
+		orangeContainer.add(org1.getId(), org1);
+		orangeContainer.add(org2.getId(), org2);
+		pearContainer.add(pear3.getId(), pear3);
+		pearContainer.add(pear2.getId(), pear2);
+		pearContainer.add(pear1.getId(), pear1);
+		List<Pear> list = pearContainer.iterator();
+		for (Pear p : list) {
+			System.out.println(p.getId());
+		}
+		pearContainer.remove(202);
+		list = pearContainer.iterator();
+		for (Pear p : list) {
+			System.out.println(p.getId());
+		}
+	}
+}

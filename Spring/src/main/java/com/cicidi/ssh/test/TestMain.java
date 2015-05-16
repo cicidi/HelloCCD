@@ -16,7 +16,6 @@ public class TestMain {
 		ApplicationContext appContext = new ClassPathXmlApplicationContext(
 				"config/BeanLocations.xml");
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-		DateFormat dateFormatSS = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		StudentBo studentBo = (StudentBo) appContext.getBean("studentBo");
 
 		/** insert **/

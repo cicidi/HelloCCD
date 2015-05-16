@@ -1,0 +1,44 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+
+	<bean id="studentDao" class="com.cicidi.ssh.dao.impl.StudentDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="studentBo" class="com.cicidi.ssh.bo.impl.StudentBoImpl">
+		<property name="studentDao" ref="studentDao" />
+	</bean>
+
+	<context:component-scan base-package="com.cicidi.ssh">
+
+		<context:include-filter type="regex"
+			expression="com.cicidi.ssh.dao.*DAO.*" />
+
+		<context:include-filter type="regex"
+			expression="com.cicidi.ssh.*BO.*" />
+
+	</context:component-scan>
+	<tx:annotation-driven transaction-manager="txManager" />
+
+
+	<bean id="txManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<!-- <property name="dataSource" ref="dataSource" /> -->
+		<property name="configLocation" value="classpath:database/hibernate.cfg.xml" />
+
+	</bean>
+
+</beans>

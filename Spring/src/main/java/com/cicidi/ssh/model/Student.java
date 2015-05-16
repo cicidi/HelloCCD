@@ -1,8 +1,16 @@
 package com.cicidi.ssh.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity()
 public class Student {
+	@Id
 	private int studentId;
+	@Column
 	private String studentName;
+	@Column
 	private String college;
 
 	public int getStudentId() {

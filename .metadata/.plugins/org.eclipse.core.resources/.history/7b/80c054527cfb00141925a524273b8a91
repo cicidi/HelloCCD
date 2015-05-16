@@ -1,0 +1,14 @@
+package com.cicidi.time.apple_screen.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FightServeTimeTest {
+
+	@Test
+	public void testStart() {
+		fail("Not yet implemented");
+	}
+
+}

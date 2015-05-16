@@ -1,0 +1,76 @@
+package com.cicidi.time.apple_screen;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class FightServeTime {
+	final int move = 1;
+	final int fill = 3;
+	final int refill = 30;
+	int totalRow = 30;
+	public int currentRow = 1;
+	int stopBy = 1;
+	ArrayList<Integer> serveRequired;
+	public int startTime;
+	public int currentTime = 0;
+	int capacity = 7;
+
+	public void init(Integer[] array) {
+		serveRequired = new ArrayList<Integer>(Arrays.asList(array));
+
+	}
+
+	public int start(int stopBy) {
+
+		for (int i = 0; i < serveRequired.size(); i++) {
+
+			// if (capacity > 0) {
+			while (currentRow < serveRequired.get(i)) {
+				move(currentRow + 1);
+			}
+			if (currentRow == serveRequired.get(i)) {
+				fill();
+			}
+			if (capacity < 0) {
+				refill();
+			}
+			continue;
+			// }
+
+		}
+		move(1);
+		return currentTime - startTime;
+	}
+
+	public boolean check() {
+		return false;
+	}
+
+	public void move(int targetRow) {
+		currentTime = currentTime + Math.abs(targetRow - currentRow) * 1;
+		currentRow = targetRow;
+	}
+
+	public void fill() {
+		currentTime += fill;
+		capacity--;
+	}
+
+	public void refill() {
+		stopBy = currentRow;
+		move(1);
+		currentTime += refill;
+		capacity = 7;
+		move(stopBy + 1);
+		// start(currentRow);
+	}
+
+	public static void main(String[] args) {
+		FightServeTime action = new FightServeTime();
+		Integer[] array = { 3, 4, 5, 7, 10, 13, 20, 24 };
+		action.init(array);
+		action.start(action.currentRow);
+		System.out.println("Total Spend time is "
+				+ (action.currentTime - action.startTime) + "seconds");
+	}
+}

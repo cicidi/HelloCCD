@@ -2,12 +2,12 @@ package com.cicidi.ssh.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Repository;
 
 import com.cicidi.ssh.dao.StudentDao;
 import com.cicidi.ssh.model.Student;
 
+@Repository
 public class StudentDaoImpl implements StudentDao {
 	private SessionFactory sessionFactory;
 

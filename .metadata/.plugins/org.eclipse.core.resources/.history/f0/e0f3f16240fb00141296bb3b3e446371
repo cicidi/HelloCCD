@@ -1,0 +1,12 @@
+package com.cicidi.generic.apple_screen;
+
+public class AppleContainer extends FruitContainer {
+	Container<Integer, Apple> appleContainer = new Container<Integer, Apple>();
+
+	@Override
+	public void add(int id, Apple apple) {
+		// TODO Auto-generated method stub
+		appleContainer.add(k, v);
+
+	}
+}

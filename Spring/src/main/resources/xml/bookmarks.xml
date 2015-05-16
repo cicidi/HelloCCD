@@ -4,7 +4,7 @@
 	<bookmark id="1" url="http://www.example.org/one" tags="example,test"
 		href="http://del.icio.us/api/peej/bookmarks/a211528fb5108cddaa4b0d3aeccdbdcf"
 		time="2005-10-21T19:07:30Z">Example of a Delicious bookmark</bookmark>
-	<bookmark id="2" url="http://www.example.org/two" tags="example,test"
+	<bookmark id="2" url=" http: / www.example.org / two " tags="example,test"
 		href="http://del.icio.us/api/peej/bookmarks/e47d06a59309774edab56813438bd3ce"
 		time="2005-10-21T19:34:16Z">Another example of a Delicious bookmark</bookmark>
 </bookmarks>

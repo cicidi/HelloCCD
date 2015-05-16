@@ -1,0 +1,17 @@
+package com.cicidi.ssh.service.impl;
+
+import java.util.List;
+
+import com.cicidi.ssh.model.Bookmark;
+import com.cicidi.ssh.model.jaxbInterprator.XmlReader;
+import com.cicidi.ssh.service.IPushData;
+
+public class PushDataImpl implements IPushData {
+	public void push() {
+		List list = XmlReader.load();
+		for (Object obj : list) {
+			if (obj instanceof Bookmark) {
+			}
+		}
+	}
+}

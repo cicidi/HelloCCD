@@ -1,0 +1,5 @@
+package com.cicidi.ssh.service;
+
+public class PushData {
+
+}

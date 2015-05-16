@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FruitContainerTest" project="CoreJava" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cicidi.generic.apple_screen.FruitContainerTest" time="0.0">
+    <testcase name="testAdd" classname="com.cicidi.generic.apple_screen.FruitContainerTest" time="0.0"/>
+    <testcase name="testSequenceOrder" classname="com.cicidi.generic.apple_screen.FruitContainerTest" time="0.0"/>
+    <testcase name="testRemove" classname="com.cicidi.generic.apple_screen.FruitContainerTest" time="0.0"/>
+  </testsuite>
+</testrun>

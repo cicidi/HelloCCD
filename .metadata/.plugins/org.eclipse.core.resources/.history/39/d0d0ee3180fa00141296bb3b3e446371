@@ -1,0 +1,10 @@
+package com.cicidi.ssh.service.impl;
+
+import com.cicidi.ssh.model.jaxbInterprator.XmlReader;
+import com.cicidi.ssh.service.IPushData;
+
+public class PushDataImpl implements IPushData {
+	public void push() {
+		XmlReader.load();
+	}
+}

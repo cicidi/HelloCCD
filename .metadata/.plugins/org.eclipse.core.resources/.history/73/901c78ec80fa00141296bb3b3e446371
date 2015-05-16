@@ -1,0 +1,64 @@
+package com.cicidi.ssh.dao.impl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.cicidi.ssh.model.Bookmark;
+
+public class BookmarkDaoImpl implements BookmarkDao {
+	private SessionFactory sessionFactory;
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	public void save(Bookmark Bookmark) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		// Session session = sessionFactory.openSession();
+		// Transaction trans = session.beginTransaction();
+
+		session.saveOrUpdate(Bookmark);
+		// trans.commit();
+		// session.close();
+		System.out.println("commit;");
+	}
+
+	public Bookmark findById(int id) {
+		// TODO Auto-generated method stub
+		System.out.println("good init");
+		Session session = sessionFactory.getCurrentSession();
+		// Session session = sessionFactory.openSession();
+		// Transaction trans = session.beginTransaction();
+
+		Bookmark Bookmark = (Bookmark) session.get(Bookmark.class, id);
+		System.out.println("good get");
+		// trans.commit();
+		// session.close();
+		return Bookmark;
+
+	}
+
+	public void update(Bookmark Bookmark) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		// Session session = sessionFactory.openSession();
+		// Transaction trans = session.beginTransaction();
+		session.update(Bookmark);
+		// trans.commit();
+
+	}
+
+	public void delete(Bookmark Bookmark) {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.getCurrentSession();
+		// Transaction trans = session.beginTransaction();
+		sessionFactory.getCurrentSession().delete(Bookmark);
+		// trans.commit();
+	}
+
+}
