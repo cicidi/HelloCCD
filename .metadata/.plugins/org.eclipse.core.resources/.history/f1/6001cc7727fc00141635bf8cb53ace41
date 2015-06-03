@@ -1,0 +1,17 @@
+'''
+Created on May 16, 2015
+
+@author: jianming
+'''
+from __main__ import name
+print "Hello Python";
+counter = 100  # An integer assignment
+miles = 1000.0  # A floating point
+name = "John"  # A string
+
+del counter [,miles[,name]]
+
+
+print counter
+print miles
+print name

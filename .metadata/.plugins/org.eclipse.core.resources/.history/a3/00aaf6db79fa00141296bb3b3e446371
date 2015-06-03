@@ -1,5 +1,0 @@
-package com.cicidi.ssh.service.impl;
-
-public interface PushData {
-
-}

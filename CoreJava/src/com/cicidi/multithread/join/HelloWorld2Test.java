@@ -6,6 +6,16 @@ public class HelloWorld2Test extends Thread {
 	 * @param args
 	 * @throws InterruptedException
 	 */
+	/*
+	 * You must understand , threads scheduling is controlled by thread
+	 * scheduler.So, you cannot guarantee the order of execution of threads
+	 * under normal circumstances.
+	 * 
+	 * 
+	 * However if you use join() ,it makes sure that as soon as a thread calls
+	 * join,the current thread(yes,currently running thread) will not execute
+	 * unless the thread you have called join is finished.
+	 */
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
@@ -20,13 +30,14 @@ public class HelloWorld2Test extends Thread {
 			// e.printStackTrace();
 			// }
 			thread2.start();
-			thread2.join();
+			// thread2.join();
 
 		}
 		// (new Thread(new HelloWorld2("Hello"))).start();
 		// thread2.start();sss
 	}
-// 这里的Override　和其他的code　没关系，我就是用来看看getName() method 的
+
+	// 这里的Override　和其他的code　没关系，我就是用来看看getName() method 的
 	@Override
 	public void run() {
 		getName();

@@ -99,9 +99,7 @@ public class FruitContainerTest {
 		List<Pear> pearlist = fruitConatiner.findAll(FruitType.Pear);
 		List<Orange> orangelist = fruitConatiner.findAll(FruitType.Orange);
 		List<Fruit> fruitlist = fruitConatiner.findAll(FruitType.Fruit);
-		Assert.assertEquals(1, 1);
-		System.out.println(applelist.get(0).getId());
-		System.out.println(app1.getId());
+
 		Assert.assertEquals(applelist.get(0).getId(), app1.getId());
 		Assert.assertEquals(applelist.get(1).getId(), app2.getId());
 		Assert.assertEquals(orangelist.get(0).getId(), org1.getId());

@@ -1,0 +1,6 @@
+'''
+Created on May 16, 2015
+
+@author: jianming
+'''
+print "Hello Python";

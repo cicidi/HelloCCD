@@ -1,0 +1,24 @@
+'''
+Created on May 19, 2015
+
+@author: jianming
+'''
+
+
+class Apple:
+    'This is a Apple class'
+    name = 'apple'
+    count = 0
+    def __init__(self, name):
+        Apple.name = name;
+        Apple.count += 1;
+    def displayName(self):
+        print Apple.name;
+    def displayCount(self):
+        Apple.count += 1;    
+# print globals();
+
+
+
+app1 = Apple("apple1")
+app1.displayName()

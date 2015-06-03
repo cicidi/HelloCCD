@@ -1,0 +1,9 @@
+'''
+Created on May 19, 2015
+
+@author: jianming
+'''
+def ApplePhone():
+    print "Apple 5s"
+
+print globals();
