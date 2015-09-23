@@ -1,8 +1,0 @@
-package com.cicidi.hashMap;
-
-import java.util.HashMap;
-
-public class SdtHashMap extends HashMap {
-
-	 public void add
-}

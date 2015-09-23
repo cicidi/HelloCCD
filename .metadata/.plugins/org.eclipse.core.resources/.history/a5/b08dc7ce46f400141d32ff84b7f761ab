@@ -1,6 +1,0 @@
-package com.cicidi.singleton;
-
-public class SingletonClass {
-	public static class StaticClass {
-	}
-}
