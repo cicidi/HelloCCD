@@ -1,0 +1,9 @@
+2015-05-08 12:33:57 INFO  SdtHashMapTest:40 - Bob 19 NY
+2015-05-08 12:33:57 INFO  SdtHashMapTest:44 - Debug Message!
+2015-05-08 12:33:57 INFO  SdtHashMapTest:40 - Mike 55 CA
+2015-05-08 12:33:57 INFO  SdtHashMapTest:44 - Debug Message!
+2015-05-08 12:33:57 INFO  SdtHashMapTest:40 - Tom 55 NY
+2015-05-08 12:33:57 INFO  SdtHashMapTest:44 - Debug Message!
+2015-05-08 12:37:02 INFO  SdtHashMapTest:41 - Bob 19 NY
+2015-05-08 12:37:02 INFO  SdtHashMapTest:41 - Mike 55 CA
+2015-05-08 12:37:02 INFO  SdtHashMapTest:41 - Tom 55 NY
