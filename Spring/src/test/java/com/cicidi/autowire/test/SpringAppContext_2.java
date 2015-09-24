@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Lazy;
 
 @Configuration
 @Lazy
-public class SpringAppContext {
+public class SpringAppContext_2 {
 
 	@Bean(name = "helloworld1")
 	public HelloWorld helloworld1() {
