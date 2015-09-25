@@ -6,7 +6,10 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
- 
+ /*
+  * To access example first make sure you have setup user password in tomcat-user.xml
+  * Then go to this link http://localhost:8080/RESTfulExample/cicidi/hello/1
+  * */
 @Path("/hello")
 public class HelloWorldService {
  
