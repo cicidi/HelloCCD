@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "Bookmark")
 @XmlRootElement
-public class Bookmark extends Model {
+public class Bookmark implements Model {
 	@Id
 	// if use GeneratedValue id can not be string
 	// @GeneratedValue

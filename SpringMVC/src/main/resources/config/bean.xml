@@ -2,10 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
                            http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
 							http://www.springframework.org/schema/tx
- 							http://www.springframework.org/schema/tx/spring-tx-4.1.xsd                           
+ 							http://www.springframework.org/schema/tx/spring-tx-4.1.xsd         
+ 				   		  http://www.springframework.org/schema/aop
+           				   http://www.springframework.org/schema/aop/spring-aop-4.1.xsd                  
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context-4.1.xsd">
 
@@ -39,6 +42,15 @@
 		<!-- <property name="dataSource" ref="dataSource" /> -->
 		<property name="configLocation" value="classpath:database/hibernate.cfg.xml" />
 		<property name="packagesToScan" value="com.cicidi.ssh.model" />
+	</bean>
+	<bean id="topology" class="com.cicidi.spring.controller.Topology">
+		<!-- <property name="student" ref="student" /> -->
+		<lookup-method name="createStudent" bean="student" />
+	</bean>
+
+	<bean id="student" scope="prototype" class="com.cicidi.ssh.model.Student">
+		<!-- This instructs the container to proxy the current bean -->
+		<!-- <aop:scoped-proxy proxy-target-class="false" /> -->
 	</bean>
 
 	<bean

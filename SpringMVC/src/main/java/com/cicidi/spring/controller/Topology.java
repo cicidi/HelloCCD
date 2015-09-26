@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,15 +11,31 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cicidi.ssh.bo.AbstractBo;
+import com.cicidi.ssh.model.Model;
 import com.cicidi.ssh.model.Student;
-import com.google.gson.Gson;
 
-@Controller
+//@Controller
 @RequestMapping("/topology")
 public class Topology {
 	@Autowired
 	@Qualifier("studentBo")
 	AbstractBo studentBo;
+	// @Autowired
+	// @Qualifier("student")
+	Model student;
+
+	public Model getStudent() {
+		return student;
+	}
+
+	public Model createStudent() {
+		return null;
+	};
+
+	public void setStudent(Model student) {
+		this.student = student;
+	}
+
 	private static final Logger logger = LoggerFactory
 			.getLogger(Topology.class);
 
@@ -38,8 +53,8 @@ public class Topology {
 	 * so if it is gonna use rest call only, like make a call from java class we
 	 * gonna use the next example
 	 */
-	
-	//Tip
+
+	// Tip
 	// , headers = { "Accept=*/*" }, produces = "application/json"
 	/*
 	 * Just before I got the same 406 error, I have the add code above in
@@ -49,16 +64,26 @@ public class Topology {
 	 * because jason bean config works
 	 */
 	@RequestMapping(value = "/student/{id}", method = RequestMethod.GET)
-	public @ResponseBody Student getEmployee(@PathVariable("id") String stdId) {
+	public @ResponseBody Model getEmployee(@PathVariable("id") String stdId) {
 		logger.info("Start getEmployee. ID=" + stdId);
-		Student std = new Student();
+		// Student std = new Student();
+		student = createStudent();
+		logger.info("cicidi :" + student.toString());
+		Student std = (Student) student;
 		std.setStudentId(Integer.valueOf(stdId));
-		std.setStudentName("name1");
+		std.setStudentName("createByLookup");
+		System.out.println("cicidi :" + std.getStudentName());
+		if (stdId.equals("1")) {
+			System.out.println("cicidi");
+			std.setStudentName("name1");
+		}
+		// else
+		// ((Student) student).setStudentName("othername");
 		studentBo.save(std);
-		std = (Student) studentBo.findByID(Integer.valueOf(stdId));
+		student = (Student) studentBo.findByID(Integer.valueOf(stdId));
 		// Gson gson = new Gson();
 		// String str = gson.toJson(std);
-		return std;
+		return student;
 
 	}
 }
