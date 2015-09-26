@@ -2,15 +2,15 @@ package com.cicidi.ssh.bo;
 
 import org.springframework.stereotype.Component;
 
-import com.cicidi.ssh.model.Student;
+import com.cicidi.ssh.model.Model;
 
 @Component
-public interface StudentBo {
-	void save(Student student);
+public interface StudentBo extends AbstractBo {
+	void save(Model student);
 
-	void update(Student student);
+	void update(Model student);
 
-	void delete(Student student);
+	void delete(Model student);
 
-	Student findByID(int id);
+	Model findByID(int id);
 }

@@ -26,7 +26,7 @@ public class TestMain {
 		studentBo.save(student);
 
 		/** select **/
-		Student student2 = studentBo.findByID(1317);
+		Student student2 = (Student) studentBo.findByID(1317);
 		System.out.println(student2);
 
 		/** update **/

@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.cicidi.ssh.bo.StudentBo;
 import com.cicidi.ssh.dao.StudentDao;
+import com.cicidi.ssh.model.Model;
 import com.cicidi.ssh.model.Student;
 
 @Component
@@ -30,25 +31,25 @@ public class StudentBoImpl implements StudentBo {
 	 * single transaction.
 	 */
 	@Transactional
-	public void save(Student student) {
+	public void save(Model student) {
 		// TODO Auto-generated method stub
-		studentDao.save(student);
+		studentDao.save((Student) student);
 	}
 
 	@Transactional
-	public void update(Student student) {
+	public void update(Model student) {
 		// TODO Auto-generated method stub
-		studentDao.update(student);
+		studentDao.update((Student) student);
 	}
 
 	@Transactional
-	public void delete(Student student) {
+	public void delete(Model student) {
 		// TODO Auto-generated method stub
-		studentDao.delete(student);
+		studentDao.delete((Student) student);
 	}
 
 	@Transactional
-	public Student findByID(int id) {
+	public Model findByID(int id) {
 		// TODO Auto-generated method stub
 		studentDao.findById(id);
 		return studentDao.findById(id);

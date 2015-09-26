@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-   <bean id="prototypescope" class="com.javabeat.HelloWorld" scope="prototype">
+   <bean id="prototypescope" class="com.javabeat.HelloWorld_Scope" scope="prototype">
    </bean>
    <bean id="singletonscope" class="com.javabeat.HelloWorld" scope="singleton">
    </bean>

@@ -2,7 +2,7 @@ package com.javabeat;
 
 import java.util.Date;
 
-public class HelloWorld {
+public class HelloWorld_Scope {
 	private String message;
 	private Date date;
 

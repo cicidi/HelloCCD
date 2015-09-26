@@ -3,20 +3,11 @@
 	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
-                           http://www.springframework.org/schema/beans/spring-beans.xsd
-                           http://www.springframework.org/schema/tx
-                           http://www.springframework.org/schema/tx/spring-tx.xsd
+                           http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+							http://www.springframework.org/schema/tx
+ 							http://www.springframework.org/schema/tx/spring-tx-4.1.xsd                           
                            http://www.springframework.org/schema/context
-                           http://www.springframework.org/schema/context/spring-context.xsd">
-
-
-
-	<bean id="studentDao" class="com.cicidi.ssh.dao.impl.StudentDaoImpl">
-		<property name="sessionFactory" ref="sessionFactory"></property>
-	</bean>
-	<bean id="studentBo" class="com.cicidi.ssh.bo.impl.StudentBoImpl">
-		<property name="studentDao" ref="studentDao" />
-	</bean>
+                           http://www.springframework.org/schema/context/spring-context-4.1.xsd">
 
 	<context:component-scan base-package="com.cicidi.ssh">
 
@@ -27,9 +18,15 @@
 			expression="com.cicidi.ssh.*BO.*" />
 
 	</context:component-scan>
+
 	<tx:annotation-driven transaction-manager="txManager" />
 
-
+	<bean id="studentDao" class="com.cicidi.ssh.dao.impl.StudentDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="studentBo" class="com.cicidi.ssh.bo.impl.StudentBoImpl">
+		<property name="studentDao" ref="studentDao" />
+	</bean>
 	<bean id="txManager"
 		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
 		<property name="sessionFactory">
@@ -43,5 +40,20 @@
 		<property name="configLocation" value="classpath:database/hibernate.cfg.xml" />
 		<property name="packagesToScan" value="com.cicidi.ssh.model" />
 	</bean>
+
+	<bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="jsonMessageConverter" />
+			</list>
+		</property>
+	</bean>
+
+	<!-- Configure bean to convert JSON to POJO and vice versa -->
+	<bean id="jsonMessageConverter"
+		class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+	</bean>
+	<!-- -->
 
 </beans>

@@ -18,10 +18,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "Bookmark")
 @XmlRootElement
-public class Bookmark {
+public class Bookmark extends Model {
 	@Id
 	// if use GeneratedValue id can not be string
-//	@GeneratedValue
+	// @GeneratedValue
 	@Column(name = "id")
 	private int id;
 	@Column

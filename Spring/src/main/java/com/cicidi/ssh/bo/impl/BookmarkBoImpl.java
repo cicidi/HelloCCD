@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.cicidi.ssh.bo.BookmarkBo;
 import com.cicidi.ssh.dao.BookmarkDao;
 import com.cicidi.ssh.model.Bookmark;
+import com.cicidi.ssh.model.Model;
 
 @Component("bookmarkBo")
 public class BookmarkBoImpl implements BookmarkBo {
@@ -30,25 +31,25 @@ public class BookmarkBoImpl implements BookmarkBo {
 	 * single transaction.
 	 */
 	@Transactional
-	public void save(Bookmark Bookmark) {
+	public void save(Model Model) {
 		// TODO Auto-generated method stub
-		bookmarkDao.save(Bookmark);
+		bookmarkDao.save((Bookmark) Model);
 	}
 
 	@Transactional
-	public void update(Bookmark Bookmark) {
+	public void update(Model Model) {
 		// TODO Auto-generated method stub
-		bookmarkDao.update(Bookmark);
+		bookmarkDao.update((Bookmark) Model);
 	}
 
 	@Transactional
-	public void delete(Bookmark Bookmark) {
+	public void delete(Model Model) {
 		// TODO Auto-generated method stub
-		bookmarkDao.delete(Bookmark);
+		bookmarkDao.delete((Bookmark) Model);
 	}
 
 	@Transactional
-	public Bookmark findByID(int id) {
+	public Model findByID(int id) {
 		// TODO Auto-generated method stub
 		bookmarkDao.findById(id);
 		return bookmarkDao.findById(id);
