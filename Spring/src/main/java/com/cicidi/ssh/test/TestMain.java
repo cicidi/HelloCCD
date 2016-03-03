@@ -26,7 +26,11 @@ public class TestMain {
 		studentBo.save(student);
 
 		/** select **/
+<<<<<<< HEAD
 		Student student2 = studentBo.findByID(1317);
+=======
+		Student student2 = (Student) studentBo.findByID(1317);
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 		System.out.println(student2);
 
 		/** update **/

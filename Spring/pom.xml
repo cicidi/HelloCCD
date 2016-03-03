@@ -1,12 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mkyong.common</groupId>
-	<artifactId>SpringExample</artifactId>
+	<groupId>com.cicidi</groupId>
+	<artifactId>spring-example-core</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>SpringExample</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<spring.version>4.1.4.RELEASE</spring.version>
+	</properties>
 	<repositories>
 		<repository>
 			<id>com.springsource.repository.bundles.release</id>
@@ -26,38 +29,50 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
+			<version>4.12</version>
 		</dependency>
+
 
 		<!-- Spring framework -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
+<<<<<<< HEAD
 			<version>4.1.6.RELEASE</version>
+=======
+			<version>${spring.version}</version>
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
+<<<<<<< HEAD
 			<version>4.1.6.RELEASE</version>
+=======
+			<version>${spring.version}</version>
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
+<<<<<<< HEAD
 			<version>4.1.6.RELEASE</version>
+=======
+			<version>${spring.version}</version>
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 
 
@@ -84,6 +99,32 @@
 		<!-- Hibernate framework <dependency> <groupId>hibernate</groupId> <artifactId>hibernate3</artifactId> 
 			<version>3.2.3.GA</version> </dependency> -->
 
+<<<<<<< HEAD
+		<!-- ssh _____________________________________________ -->
+
+
+		<!-- Spring framework <dependency> <groupId>org.springframework</groupId> 
+			<artifactId>spring</artifactId> <version>2.5.6</version> </dependency> -->
+
+		<!-- Spring AOP dependency -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<!-- MySQL database driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.9</version>
+		</dependency>
+
+		<!-- Hibernate framework <dependency> <groupId>hibernate</groupId> <artifactId>hibernate3</artifactId> 
+			<version>3.2.3.GA</version> </dependency> -->
+
+=======
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -100,11 +141,19 @@
 			<artifactId>hibernate-ehcache</artifactId>
 			<version>4.3.9.Final</version>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-annotations</artifactId>
 			<version>3.5.6-Final</version>
 		</dependency>
+=======
+		<!-- <dependency> -->
+		<!-- <groupId>org.hibernate</groupId> -->
+		<!-- <artifactId>hibernate-annotations</artifactId> -->
+		<!-- <version>3.5.6-Final</version> -->
+		<!-- </dependency> -->
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 
 
 		<!-- Hibernate library dependecy start -->

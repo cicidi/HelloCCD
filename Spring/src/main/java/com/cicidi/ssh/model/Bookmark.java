@@ -18,10 +18,17 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "Bookmark")
 @XmlRootElement
+<<<<<<< HEAD
 public class Bookmark {
 	@Id
 	// if use GeneratedValue id can not be string
 //	@GeneratedValue
+=======
+public class Bookmark implements Model {
+	@Id
+	// if use GeneratedValue id can not be string
+	// @GeneratedValue
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 	@Column(name = "id")
 	private int id;
 	@Column

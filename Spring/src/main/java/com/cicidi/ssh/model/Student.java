@@ -4,8 +4,18 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+<<<<<<< HEAD
 @Entity()
 public class Student {
+=======
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Entity
+// @Component
+// @Scope("prototype")
+public class Student implements Model {
+>>>>>>> 68ff944a24404430a367bf3c6548d19eba96cf31
 	@Id
 	private int studentId;
 	@Column

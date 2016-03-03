@@ -7,6 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
+/*this is a exmaple from mkyong*/
 @Path("/json/product")
 public class JSONService {
 	int i = 0;
