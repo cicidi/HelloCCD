@@ -39,7 +39,7 @@ public class FightServeTimeTest {
 	 * 
 	 * 
 	 * 
-	 * Write an algorithm that finds the amount of time needed to serve all
+	 * Write an algorithms that finds the amount of time needed to serve all
 	 * passengers if only the passengers in the rows defined in the table [i]
 	 * (below) ordered coffee.
 	 * 
